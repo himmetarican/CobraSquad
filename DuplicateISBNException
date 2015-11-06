@@ -1,0 +1,21 @@
+public class DuplicateISBNException extends Exception
+  {
+    
+    //default constructor
+    public DuplicateISBNException()
+    {        
+        super("Duplicated ISBN number");
+    }
+    
+    //constuctor with message
+    public DuplicateISBNException(String msg)
+    {
+        super(msg);
+    }
+    
+    public String getMessage()
+    {
+	    return super.getMessage();
+    }    
+
+  }
